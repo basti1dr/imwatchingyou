@@ -36,9 +36,9 @@ class AwsEc2 < AwsConnection
         {
           name: 'tag-value',
           values: [stage]
-
         }
-      ]
+      ],
+      max_results: 500
     )
 
     number_ec2 = 0
@@ -65,14 +65,13 @@ class AwsEc2 < AwsConnection
   end
 
   def events_ec2
-    instances = list_instances_id
     events = []
 
     instances_infos = @ec2client.describe_instance_status({
-      instance_ids: instances,
-      include_all_instances: true
+      include_all_instances: true,
+      max_results: 500
     })
-    
+
     instances_infos.instance_statuses.each do |instance|
       event = check_event(instance)
       events.push(event) unless event.eql?([])
