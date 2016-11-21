@@ -1,6 +1,6 @@
 # I'm watching You
 [![Build Status](https://travis-ci.org/bdronneau/imwatchingyou.svg?branch=refactor%2Fbadges)](https://travis-ci.org/bdronneau/imwatchingyou)[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bdronneau/imwatchingyou/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bdronneau/imwatchingyou/?branch=master)
-[![Dependency Status](https://gemnasium.com/bdronneau/imwatchingyou.svg)](https://gemnasium.com/bdronneau/imwatchingyou)
+[![Dependency Status](https://gemnasium.com/bdronneau/imwatchingyou.svg)](https://gemnasium.com/bdronneau/imwatchingyou) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aaf63545793f4c89a8ea2e8c275ee8f4)](https://www.codacy.com/app/basti1/imwatchingyou?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bdronneau/imwatchingyou&amp;utm_campaign=Badge_Grade)
 
 ## Install
 ### Vagrant
